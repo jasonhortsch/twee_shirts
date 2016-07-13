@@ -6,7 +6,7 @@
 
 This project assumes the hypothetical business model of setting up a t-shirt screen printer outside of a sports arena. Immediately after a game, t-shirts can be made and sold on the spot with hashtags that trended during the game printed on them. This program collects live tweets relating to the game (usually via specifying a team name), and stores them in a Mongo database.
 
-After the game, the entries are exported to CSV, opened in an iPython notebook, and manipulated so that the most frequent hashtags used in the team-related tweets are displayed in a table. As a bonus, the table’s colors match the colors of the team whose tweets were being gathered. 
+After the game, the entries are exported to CSV, opened in an Jupyter notebook, and manipulated so that the most frequent hashtags used in the team-related tweets are displayed in a table. As a bonus, the table’s colors match the colors of the team whose tweets were being gathered. 
 
 ### Technologies Used
 
